@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #829CBC;
+}
+
+header{
+    background-color: #1D3461;
+    color: white;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    padding: 5%;
+}
+header h1{
+    font-size: 50px;
+}
+
+.addEvent{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #1D3461;
+    min-height: 70vh;
+    border-radius: 15%;
+    text-align: center;
+    padding-top: 5%;
+}
+.addEvent input{
+    width: 89%;
+    height: 25px;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+}
+.addEvent input:active{
+    border: 1px solid lightblue;
+}
+.addEvent .taskBtn{
+    height: 25px;
+    width: 10%;
+    background-color: orange;
+    border: 1px solid lightblue;
+}
+.addEvent .taskBtn:hover{
+    box-shadow: 3px 3px 3px lightblue;
+}
+.addEvent .taskBtn:active{
+    background-color: lightblue;
+    color: orange;
+    border: 1px solid black;
+    border: 1px solid black;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.taskBlock{
+    background-color: #6290C8;
+    width: 100%;
+    margin: 10px auto;
+    height: 60px;
+    text-align: left;
+    padding: 1%;
+    color: #1D3461;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnRemove{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    border: 1px solid lightblue;
+    padding: 5px;
+}
+.btnRemove:hover{
+    box-shadow: 2px 2px 2px #ff5f5f;
+}
+.btnRemove:active{
+    border: 3px solid lightblue;
+}
